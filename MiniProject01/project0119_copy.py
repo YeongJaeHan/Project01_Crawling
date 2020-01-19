@@ -23,6 +23,7 @@ coll=db.get_collection('ppp') #collection생성
 print('#')
 conf=db.get_collection('conf')
 
+
 if not conf.find_one():
     dict1=dict()
     dict1['date']='2020.01.01'
